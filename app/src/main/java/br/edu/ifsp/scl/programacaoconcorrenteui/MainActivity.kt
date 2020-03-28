@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
                 1 -> startActivity(Intent(this, MessageHandlerActivity::class.java))
                 2 -> startActivity(Intent(this, RunnableHandlerActivity::class.java))
                 3 -> startActivity(Intent(this, RunOnUiThreadActivity::class.java))
-                4-> startActivity(Intent(this, CoroutinesActivity::class.java)) // Tarefa
+                4 -> startActivity(Intent(this, CoroutinesActivity::class.java)) // Tarefa
             }
         }
     }
